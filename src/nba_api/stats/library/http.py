@@ -97,7 +97,7 @@ class NBAStatsHTTP(http.NBAHTTP):
 
     nba_response = NBAStatsResponse
 
-    base_url = 'https://stats.nba.com/stats/{endpoint}'
+    base_url = 'https://stats.wnba.com/{endpoint}'
 
     headers = STATS_HEADERS
 
